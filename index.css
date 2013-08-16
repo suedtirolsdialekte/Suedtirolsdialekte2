@@ -1,0 +1,153 @@
+*{
+	font-family: Lato;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	-webkit-appearance: none;
+}
+
+body{
+	text-align: center;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	padding: 0.5em;
+	padding-left: 0;
+	padding-right: 0;
+	font-weight: 700;
+	font-size: 4em;
+	font-family: Roboto;
+	background: #E74C3C;
+	color: #fff;
+	width: 100%;
+	/*text-shadow: 0.05em 0.05em #C0392B;*/
+}
+
+#shortcut{
+	background: #E74C3C;
+	width: 100%;
+	margin: auto;
+	padding: auto;
+}
+
+#shortcut li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+#shortcut a{
+	display: block;
+	background: #E74C3C;
+	width: 1.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-decoration: none;
+	color: white;
+	font-weight: 300;
+	font-size: 1.3em;
+	/*font-family: Fauna One;*/
+	text-transform: uppercase;
+	border-radius: 20em;
+}
+
+#shortcut a:hover{
+	background: #C0392B;
+	color: white;
+}
+
+#shortcut a:active{
+	background: white;
+	color: black;
+}
+
+#search{
+	position: absolute;
+	top: 0.4em;
+	right: 0.4em;
+		
+	height: 1.3em;
+	line-height: 0.6em;
+	width: 6em;
+	
+	margin: auto;
+	margin-left: 1em;
+	margin-top: 0.3em;
+	
+	padding: 0.1em;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+
+	border: none;
+	text-align: left;
+	font-size: 1.1em;
+	font-weight: 300;
+	box-shadow: none;
+	outline: none;
+	background: white;
+	color: black;
+	/*border-radius: 1em;*/
+}
+
+#need-space{
+	height: 0.3em;
+}
+
+#body{
+	width: 100%;
+	visibility: hidden;
+}
+
+#row{
+	width: 350px;
+	margin: auto;
+	display: inline-block;
+	margin-top: 1em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+#def{
+}
+
+#def p{
+	text-align: left;
+}
+
+#char{
+	width: 100%;
+	background: #E74C3C;
+	color: white;
+	height: 1.7em;
+	line-height: 1.7em;
+	margin-bottom: 1em;
+}
+
+.gone{
+	visibility: hidden;
+}
+
+/* Fucking standart styles */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+input[type="search"]{
+  -webkit-appearance: none;
+  -webkit-box-sizing: content-box;
+  outline:none;
+}
+
+/* iPad */
+@media only screen and (max-width: 1024px) {
+	#search{
+		
+	}
+}
