@@ -1,0 +1,125 @@
+*{
+	font-family: Lato;
+	margin: 0;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+body{
+	text-align: center;
+	width: 100%;
+	/*background: #DEE0E1;*/
+}
+
+#login{
+	width: 250px;
+	margin: auto;
+	margin-top: 7em;
+	border-radius: 0 0 1em 1em;
+}
+
+#field{
+	height: 2.3em;
+	width: 250px;
+	
+	margin: auto;
+	
+	padding: 0;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+
+	border: none;
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: 300;
+	box-shadow: none;
+	outline: none;
+	color: #666;
+}
+
+#submit{
+	height: 1.7em;
+	width: 250px;
+	
+	margin: auto;
+	
+	padding: 0.1em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+
+	border: none;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 300;
+	box-shadow: none;
+	outline: none;
+	color: white;
+	background: #e74c3c;
+}
+
+#submit:hover{
+	background: #c0392b;
+	color: white;
+	border: none;
+}
+
+#submit:active{
+	background: #333;
+	color: white;
+}
+
+#login-title{
+	height: 1.8em;
+	line-height: 1.8em;
+
+	font-size: 2.1em;
+	font-weight: 500;
+	
+	color: #333;
+}
+
+#login h3{
+	margin: auto;
+	margin-top: 1.3em;
+	text-align: left;
+	width: 250px;
+	font-weight: 500;
+	font-size: 1.4em;
+	color: black;
+}
+
+#error{
+	margin: auto;
+	background: #E74C3C;
+	width: 350px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: white
+}
+
+#error h3{
+	font-weight: 300;
+	font-size: 1em;
+	padding: 0.3em;
+	text-align: left;
+}
+
+.line-top{
+	border-bottom: 1px solid black;
+	margin-bottom: 1px;
+}
+
+/* Fucking standart styles */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+input[type="search"]{
+  -webkit-appearance: none;
+  -webkit-box-sizing: content-box;
+  outline:none;
+}
